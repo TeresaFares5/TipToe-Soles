@@ -138,19 +138,6 @@ The website should be tested at approximately:
 - 768px tablet width
 - 1280px desktop width
 
-Recommended checks:
-
-1. Test every navigation link.
-2. Open and close the hamburger menu.
-3. Close the menu using the Escape key.
-4. Add several products to the wishlist.
-5. Remove a product from the wishlist.
-6. Refresh the page and check wishlist persistence.
-7. Search for products by name or colour.
-8. Filter between men's and women's shoes.
-9. Submit forms with missing and valid information.
-10. Navigate through the website using only the keyboard.
-
 ## Project Purpose
 
 This website was created for educational and assessment purposes. TipToe Soles is the client scenario supplied for the project, and the website does not process real purchases or customer accounts.
