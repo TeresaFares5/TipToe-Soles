@@ -501,7 +501,7 @@ address {
 }
 
 .page-hero {
-  padding: clamp(5rem, 11vw, 10rem) clamp(2rem, 8vw, 8rem);
+  padding: clamp(5rem, 11vw, 4rem) clamp(2rem, 8vw, 8rem);
   border-bottom: 1px solid var(--line);
   background: var(--mist);
 }
