@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-AU">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Share feedback about TipToe Soles products, service or website.">
+  <title>Feedback | TipToe Soles</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="header-top"><a class="brand" href="index.html" aria-label="TipToe Soles home"><img
+            src="images/TipToe Soles_Logo_colour.png" alt="TipToe Soles"></a>
+        <p class="brand-line">Comfort for every step.</p><button class="menu-toggle" type="button" aria-expanded="false"
+          aria-controls="primary-menu" aria-label="Open menu"><span class="menu-icon"
+            aria-hidden="true"></span></button>
+      </div>
+      <nav class="site-nav" id="primary-menu" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="search.html">Search</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="wishlist.html">Wishlist <span class="nav-count" data-wishlist-count>0</span></a></li>
+          <li><a class="current-page" href="feedback.html" aria-current="page">Feedback</a></li>
+          <li><a href="returns.html">Policies</a></li>
+        </ul>
+      </nav>
+      <p class="header-help">Need help choosing?</p><a class="text-link light-link" href="tel:1800123456">Call 1800 123
+        456</a>
+    </header>
+    <div class="page-column">
+      <main id="main-content">
+        <header class="page-hero">
+          <p class="eyebrow">Customer feedback</p>
+          <h1>Tell us what you think.</h1>
+          <p>Your feedback helps us improve our footwear, information and customer service.</p>
+        </header>
+        <section class="section" aria-labelledby="feedback-heading">
+          <form class="standard-form" data-demo-form>
+            <fieldset>
+              <legend id="feedback-heading">Share your experience</legend>
+              <p class="form-note">Required fields are marked with an asterisk (*).</p>
+              <div class="form-row">
+                <div><label for="feedback-name">Name *</label><input id="feedback-name" name="name" type="text"
+                    autocomplete="name" required></div>
+                <div><label for="feedback-email">Email address *</label><input id="feedback-email" name="email"
+                    type="email" autocomplete="email" required></div>
+              </div>
+              <label for="feedback-topic">What is your feedback about? *</label><select id="feedback-topic" name="topic"
+                required>
+                <option value="">Select a topic</option>
+                <option value="product">A product</option>
+                <option value="service">Customer service</option>
+                <option value="website">The website</option>
+                <option value="other">Something else</option>
+              </select>
+              <label for="rating">Overall rating *</label><select id="rating" name="rating" required>
+                <option value="">Choose a rating</option>
+                <option value="5">5 — Excellent</option>
+                <option value="4">4 — Good</option>
+                <option value="3">3 — Satisfactory</option>
+                <option value="2">2 — Needs improvement</option>
+                <option value="1">1 — Poor</option>
+              </select>
+              <label for="feedback-message">Comments *</label><textarea id="feedback-message" name="message" rows="8"
+                required></textarea>
+              <div class="checkbox-row"><input id="contact-permission" name="contact-permission" type="checkbox"><label
+                  for="contact-permission">TipToe Soles may contact me about this feedback</label></div>
+              <button class="button button-primary" type="submit">Submit feedback</button>
+              <p class="form-status" data-form-status tabindex="-1" hidden>Thank you. Your feedback form has been
+                validated for this assessment demonstration.</p>
+            </fieldset>
+          </form>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <div>
+          <h2>TipToe Soles</h2>
+          <address>322 Avondale Road<br>Enfield NSW 2133, Australia</address>
+          <p><a href="tel:1800123456">1800 123 456</a><br><a
+              href="mailto:info@tiptoesoles.com.au">info@tiptoesoles.com.au</a></p>
+        </div>
+        <div>
+          <h2>Information</h2>
+          <ul>
+            <li><a href="returns.html">Returns &amp; exchanges</a></li>
+            <li><a href="delivery.html">Delivery information</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Follow us</h2>
+          <ul>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+          </ul>
+        </div>
+        <p class="copyright">&copy; 2026 TipToe Soles. All rights reserved.</p>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
