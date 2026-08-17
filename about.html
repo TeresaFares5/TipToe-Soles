@@ -6,28 +6,35 @@
   <meta name="description" content="Learn about TipToe Soles, an Australian owned and operated comfort footwear company.">
   <title>About Us | TipToe Soles</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
   <div class="site-shell">
     <header class="site-header">
-      <a class="brand" href="index.html" aria-label="TipToe Soles home">
-        <img src="images/TipToe Soles_Logo_colour.png" alt="TipToe Soles">
-      </a>
-      <p class="brand-line">Comfort for every step.</p>
+      <div class="header-top">
+        <a class="brand" href="index.html" aria-label="TipToe Soles home">
+          <img src="images/TipToe Soles_Logo_colour.png" alt="TipToe Soles">
+        </a>
+        <p class="brand-line">Comfort for every step.</p>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+      </div>
 
-      <nav class="site-nav" aria-label="Main navigation">
+      <nav class="site-nav" id="primary-menu" aria-label="Main navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="products.html">Products</a></li>
-          <li><a href="index.html#services">Services</a></li>
+          <li><a href="services.html">Services</a></li>
           <li><a class="current-page" href="about.html" aria-current="page">About us</a></li>
           <li><a href="contact.html">Contact us</a></li>
           <li><a href="search.html">Search</a></li>
           <li><a href="login.html">Login</a></li>
-          <li><a href="wishlist.html">Wishlist</a></li>
+          <li><a href="wishlist.html">Wishlist <span class="nav-count" data-wishlist-count>0</span></a></li>
           <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="returns.html">Policies</a></li>
         </ul>
       </nav>
 
