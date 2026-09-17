@@ -8,7 +8,7 @@ This project was developed as part of a TAFE web design assessment using semanti
 
 - Responsive desktop, tablet and mobile layouts
 - Accessible hamburger navigation menu
-- Product catalogue with seven footwear products
+- Product catalogue with five footwear styles across seven colour variants
 - Live product search and category filtering
 - Working wishlist with persistent saved items
 - Live wishlist item counter
@@ -50,13 +50,13 @@ TipToe-Soles/
 ├── styles.css
 ├── site.js
 └── images/
-    ├── TipToe Soles_Logo_colour.png
-    ├── Gary Black.jpg
+    ├── TipToe_Soles_Logo_colour.png
+    ├── Gary_Black.jpg
     ├── Gary Tan.png
-    ├── Work and Walk Chesnut.png
+    ├── Work_and_Walk_Chesnut.png
     ├── Sally Black.jpg
-    ├── Sally Tan.jpg
-    ├── Heavenly Black.jpg
+    ├── Sally_Tan.jpg
+    ├── Heavenly_Black.jpg
     └── Clancy Blue.png
 ```
 
@@ -64,7 +64,7 @@ TipToe-Soles/
 
 No installation or build process is required.
 
-Just visit [https://tiptoesoles.teresafares.com/]
+Extract the ZIP, then open `index.html` in a web browser.
 
 ## Wishlist
 
@@ -137,3 +137,7 @@ The website should be tested at approximately:
 ## Project Purpose
 
 This website was created for educational and assessment purposes. TipToe Soles is the client scenario supplied for the project, and the website does not process real purchases or customer accounts.
+
+## Product information update
+
+Full descriptions, features, US sizes, prices, product codes and materials reflect the supplied brief. Chestnut spelling and minor copy grammar have been corrected. Clancy’s arch-support wording is phrased without an absolute health claim. Gary Midnight uses the supplied `Gary_Black.jpg` image; the existing `gary-black` identifier is retained so saved wishlists and links continue to work.
